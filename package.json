@@ -1,0 +1,22 @@
+{
+  "name": "code-runner",
+  "version": "1.0.0",
+  "description": "A web-based code runner for Python and C# that executes user-defined functions against predefined test cases using Docker, with a dynamic web interface for easy testing and learning.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.6.2",
+    "@fastify/cors": "^11.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.1"
+  }
+}
